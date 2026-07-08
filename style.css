@@ -121,3 +121,191 @@ border-radius: 10px;
 text-align: left;
 height: max-content;
 }
+.summary-resume-container h2{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700px;
+    margin-bottom: 80px;
+}
+.resume-columns{
+    display: flex;
+    justify-content: space-between;
+}
+.education h3,
+.experience h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.resume-item{
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #d1d1d1;
+}
+.resume-item h4{
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.resume-item h5{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.resume-item p{
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+}
+.download-btn{
+    text-align: center;
+    margin-top: 20px;
+}
+/* my amazing work */
+.my-amazing-parents{
+    text-align: center;
+    margin-top: 20px;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 20px;
+    gap: 12px;
+    grid-auto-rows: 200px;
+    grid-template-areas: 
+    "one two three"
+    "four two six"
+    "four five six"
+    ;
+
+}
+.box-1{
+   grid-area: one; 
+}
+.box-2{
+grid-area: two;
+}
+.box-3{
+grid-area: three;
+}
+.box-4{
+grid-area: four;
+}
+.box-5{
+grid-area: five;
+}
+.box-6{
+grid-area: six;
+}
+.gallery img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+/* footer */
+/* footer{
+    text-align: center;
+margin-top: 70 !important;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+gap: 15px;
+background-color:#f2e3da;
+padding: 20px;
+}
+.footer-left p{
+margin: 10px 0;
+}
+footer form{
+    padding: 20px;
+}
+footer form input,footer form textarea {
+    border: none;
+    background-color:antiquewhite;
+    padding: 8px 15px;
+    border-radius: 8px;
+    display: block;
+  margin-bottom: 8px;
+  width: 100%;
+} */
+ /* Footer */
+
+.footer{
+    background: #FFF8F3;
+    margin-top: 100px;
+    padding: 80px 70px;
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 80px;
+}
+
+.footer-left,
+.footer-right{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer h2{
+    font-size: 32px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.footer p{
+    color: #757575;
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+/* Social Icons */
+
+.social-icons{
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.social-icons img{
+    width: 24px;
+    cursor: pointer;
+    transition: transform .3s;
+}
+
+.social-icons img:hover{
+    transform: scale(1.15);
+}
+
+/* Form */
+
+.footer form{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.footer input,
+.footer textarea{
+    width: 100%;
+    padding: 18px 20px;
+
+    border: none;
+    border-radius: 8px;
+
+    font-size: 16px;
+    outline: none;
+
+    background: #ffffff;
+    box-sizing: border-box;
+}
+
+.footer textarea{
+    resize: vertical;
+}
+
+.footer button{
+    width: fit-content;
+}
