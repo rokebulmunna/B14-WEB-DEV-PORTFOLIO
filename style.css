@@ -3,6 +3,9 @@
     margin: 0;
      font-family: "Open Sans", sans-serif;
 }
+img{
+    max-width: 100%;
+}
 /* common button */
 .common-button{
     background-color: #FD6E0A;
@@ -12,6 +15,17 @@
     padding: 10px 20px;
     color: white;
     border: none;
+    cursor: pointer;
+}
+.outline-button{
+    background-color:white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 12px;
+    padding: 10px 20px;
+    color:#FD6E0A ;
+    border: 1px solid #FD6E0A;
+   cursor: pointer;
 }
 header{
     background-color: rgb(218, 209, 209);
@@ -19,8 +33,6 @@ header{
 nav{
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
-    margin: auto;
     padding: 12px 0;
 }
 .logo{
@@ -41,4 +53,71 @@ ul li a{
 }
 .logo-r{
     color: #FD6E0A;
+}
+/* hero section */
+.hero-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.hero-parent-root{
+    background-color:  #fff8f3;
+}
+.container{
+      max-width: 1200px;
+    margin: auto;
+}
+.hero-left h2{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 12px;
+
+}
+.hero-left-p-1{
+    font-weight: 600;
+    font-size: 20px;
+}
+.hero-left-button-parent{
+    margin-top: 20px;
+  
+}
+/* about section */
+.about-parent{
+   background-color: #fff8f3; 
+   margin: 90px auto;
+   border-radius: 10px;
+   padding: 20px;
+   text-align: center;
+}
+.about-parent p{
+    margin:20px 0 ;
+}
+.about-box-parent{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.about-box-parent .box{
+    background-color:  #f2e3da;
+    padding: 8px;
+    border-radius: 8px;
+}
+/* what-i-do- section */
+.what-i-do-parent{
+   margin: 60px auto;
+   text-align: center; 
+}
+.what-i-do-card-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.what-i-do-card-container .what-i-do-card{
+border: 2px solid #f2e3da;
+padding: 8px;
+border-radius: 10px;
+text-align: left;
+height: max-content;
 }
